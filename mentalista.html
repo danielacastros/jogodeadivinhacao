@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O Mentalista</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+</head>
+<body>
+    <div class="container">
+        <h1>Você é bom em adivinhação?</h1>
+        <label for="palpite">Escolha um número entre 1 e 10</label>
+        <input type="number" id="palpite" name="palpite" class="campo" placeholder="Digite seu palpite aqui">
+        <input type="button" id="botao" value="Chutar!" onclick="tentar()" class="botao">
+    </div>
+    <div class="boladecristal">
+        <h2 id="resultado" class="resultado"></h2>
+    </div>
+
+    <script src="assets/js/mentalista.js"></script>
+</body>
+</html>

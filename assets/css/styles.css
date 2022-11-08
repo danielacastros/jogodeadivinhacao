@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap');
+
+body{
+    background: black;
+    background-image: url(https://i.pinimg.com/originals/ef/df/ac/efdfac15062f944d7361f68e4c6a6102.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+
+.container{
+    display:flex;
+    color:#9A84CE;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 700;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: 20px;
+    border-radius: 30px;
+    box-shadow: 3px 3px 3px black;
+   padding:10px;
+}
+
+.campo{
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.botao{
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #834E9A;
+    border: 1px solid #834E9A;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px black;
+    cursor: pointer;
+    margin: 10px;
+}
+
+h1{
+    font-size: 36px;
+    margin: 0;
+}
+
+.botao:hover{
+    background-color: #000000;
+    border: 1px solid #000000;
+}
+
+.botao:active{
+    background-color: #281F54;
+    border: 1px solid #281F54;
+}
+
+.boladecristal{
+    text-align: center;
+    background-color: rgba(175, 168, 168, 0.7);
+    border-radius: 30px;
+    color: #9A84CE;
+    background-color: rgba(2, 2, 2, 0.7);
+    margin: 20px;
+    padding: 10px;
+    border-radius: 30px;
+    box-shadow: 3px 3px 3px black;
+}
+
+.resultado{
+    margin-bottom: 20px;
+}
